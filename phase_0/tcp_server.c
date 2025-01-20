@@ -75,6 +75,7 @@ int main(){
         send(conn_sock_fd, buff, read_n, 0);
     }
 
+    return 0;
 }
 
 /*
