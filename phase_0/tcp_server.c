@@ -31,7 +31,7 @@ int main(){
     // Creating an object of struct socketaddr_in
     struct sockaddr_in server_addr;
 
-    // Setting u server addr
+    // Setting up server addr
     server_addr.sin_family =AF_INET;
     server_addr.sin_addr.s_addr = htonl(INADDR_ANY);
     server_addr.sin_port = htons(PORT);
